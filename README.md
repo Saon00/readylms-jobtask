@@ -38,53 +38,41 @@ Below are key screens from the ReadyLMS application:
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="screenshots/1_splash.png" alt="Splash Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <img src="screenshots/1.jpeg" alt="Splash Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
     <p><strong>Splash Screen</strong><br/>App launch with ReadyLMS branding</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="screenshots/2_onboarding.png" alt="Onboarding" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <img src="screenshots/2.jpeg" alt="Onboarding" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
     <p><strong>Onboarding</strong><br/>Learn Anytime, Anywhere carousel</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="screenshots/3_country_picker.png" alt="Country Picker" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <img src="screenshots/3.jpeg" alt="Country Picker" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
     <p><strong>Country Selection</strong><br/>Phone picker dialog during signup</p>
   </div>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
-  <div style="text-align: center;">
-    <img src="screenshots/4_signup_form.png" alt="Signup Form" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Signup Form</strong><br/>Registration with account details</p>
-  </div>
+
   
   <div style="text-align: center;">
-    <img src="screenshots/5_otp_verification.png" alt="OTP Verification" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <img src="screenshots/4.jpeg" alt="OTP Verification" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
     <p><strong>OTP Verification</strong><br/>6-digit code verification screen</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="screenshots/6_role_selection.png" alt="Role Selection" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <img src="screenshots/5.jpeg" alt="Role Selection" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
     <p><strong>Role Selection</strong><br/>Choose Student or Instructor</p>
   </div>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="screenshots/7_home_screen.png" alt="Home Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <img src="screenshots/6.jpeg" alt="Home Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
     <p><strong>Home Screen</strong><br/>Main dashboard with courses</p>
   </div>
   
-  <div style="text-align: center;">
-    <img src="screenshots/8_courses_discover.png" alt="Courses" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Course Discovery</strong><br/>Browse top rated courses</p>
-  </div>
-  
-  <div style="text-align: center;">
-    <img src="screenshots/9_filter_options.png" alt="Filter" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Filter & Search</strong><br/>Advanced course filtering</p>
-  </div>
+ 
 </div>
 ### Demo Flow
 
@@ -151,10 +139,8 @@ The app flow follows this main journey:
     Watch the complete user journey from app launch through onboarding, authentication, role selection, and home screen with interactive features.
   </p>
   
-  **Stream Online:**
-  - [Watch on YouTube](https://youtube.com) - Full demo walkthrough
-  - [View on Loom](https://loom.com) - Interactive screen recording
-  - [Download MP4](https://drive.google.com) - Local playback
+  **Stream:**
+  - [Download MP4](screenshots/video.mp4) - Local playback
   
   **Demo Covers:**
   - ✅ Splash screen (2-second launch)
@@ -530,16 +516,6 @@ flutter build apk  # Android
 flutter build ios  # iOS
 ```
 
-```dart
-// Check if key exists
-bool exists = HiveService._userBox.containsKey('user_name');
-
-// Get all keys
-List<dynamic> keys = HiveService._userBox.keys.toList();
-
-// Clear all data (during testing)
-HiveService.clear();
-```
 
 ### Analyzer Check
 
