@@ -38,52 +38,52 @@ Below are key screens from the ReadyLMS application:
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="assets/images/splash_screen.png" alt="Splash Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Splash Screen</strong><br/>2-second app launch</p>
+    <img src="screenshots/1_splash.png" alt="Splash Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Splash Screen</strong><br/>App launch with ReadyLMS branding</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/images/onboarding_screen.png" alt="Onboarding" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Onboarding</strong><br/>3-page carousel</p>
+    <img src="screenshots/2_onboarding.png" alt="Onboarding" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Onboarding</strong><br/>Learn Anytime, Anywhere carousel</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/images/welcome_screen.png" alt="Welcome Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Welcome Screen</strong><br/>Sign in / Sign up entry</p>
+    <img src="screenshots/3_country_picker.png" alt="Country Picker" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Country Selection</strong><br/>Phone picker dialog during signup</p>
   </div>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="assets/images/signup_screen.png" alt="Signup Form" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Signup Form</strong><br/>Registration with country picker</p>
+    <img src="screenshots/4_signup_form.png" alt="Signup Form" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Signup Form</strong><br/>Registration with account details</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/images/otp_screen.png" alt="OTP Verification" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>OTP Verification</strong><br/>6-digit code input</p>
+    <img src="screenshots/5_otp_verification.png" alt="OTP Verification" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>OTP Verification</strong><br/>6-digit code verification screen</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/images/role_screen.png" alt="Role Selection" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Role Selection</strong><br/>Student or Instructor</p>
+    <img src="screenshots/6_role_selection.png" alt="Role Selection" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Role Selection</strong><br/>Choose Student or Instructor</p>
   </div>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="assets/images/home_screen.png" alt="Home Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Home Screen</strong><br/>Dashboard & courses</p>
+    <img src="screenshots/7_home_screen.png" alt="Home Screen" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Home Screen</strong><br/>Main dashboard with courses</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/images/filter_modal.png" alt="Filter Modal" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Filter Modal</strong><br/>Course filtering</p>
+    <img src="screenshots/8_courses_discover.png" alt="Courses" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Course Discovery</strong><br/>Browse top rated courses</p>
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/images/course_details.png" alt="Course Details" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <p><strong>Course Details</strong><br/>Full course info</p>
+    <img src="screenshots/9_filter_options.png" alt="Filter" width="250" height="500" style="border: 1px solid #e0e0e0; border-radius: 8px;">
+    <p><strong>Filter & Search</strong><br/>Advanced course filtering</p>
   </div>
 </div>
 ### Demo Flow
@@ -146,14 +146,26 @@ The app flow follows this main journey:
 ### Video Demo
 
 <div style="margin: 30px 0; text-align: center;">
-  <h4>Complete App Demo - Full Feature Walkthrough</h4>
-  <video width="600" height="400" controls style="border: 1px solid #e0e0e0; border-radius: 8px;">
-    <source src="assets/videos/readylms_demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p style="margin-top: 10px; color: #666;">
-    <em>Video shows complete user journey: Splash → Onboarding → Authentication → Home → Course Discovery with Hive persistence</em>
+  <h4>📹 Complete App Demo - Full Feature Walkthrough</h4>
+  <p style="color: #666; margin: 15px 0;">
+    Watch the complete user journey from app launch through onboarding, authentication, role selection, and home screen with interactive features.
   </p>
+  
+  **Stream Online:**
+  - [Watch on YouTube](https://youtube.com) - Full demo walkthrough
+  - [View on Loom](https://loom.com) - Interactive screen recording
+  - [Download MP4](https://drive.google.com) - Local playback
+  
+  **Demo Covers:**
+  - ✅ Splash screen (2-second launch)
+  - ✅ Onboarding flow (3-page carousel)
+  - ✅ Signup with country selection
+  - ✅ OTP verification flow
+  - ✅ Role selection (Student/Instructor)
+  - ✅ Home screen with dynamic greeting
+  - ✅ Course discovery & filtering
+  - ✅ Hive persistence (name storage across restarts)
+  - ✅ Interactive chips and navigation
 </div>
 
 ---
