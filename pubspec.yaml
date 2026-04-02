@@ -1,0 +1,55 @@
+name: readylms_jobtask
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  carousel_slider: ^5.1.2
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_riverpod: ^3.3.1
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.4
+  go_router: ^17.1.0
+  google_fonts: ^8.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  logger: ^2.7.0
+  pinput: ^6.0.2
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/mortarboard.png" 
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icons/mortarboard.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icons/mortarboard.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/mortarboard.png"
